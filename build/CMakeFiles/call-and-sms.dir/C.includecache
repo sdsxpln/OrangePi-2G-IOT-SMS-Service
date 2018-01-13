@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/src/src-test-call-and-sms.c
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+fcntl.h
+-
+string.h
+-
+termios.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+
