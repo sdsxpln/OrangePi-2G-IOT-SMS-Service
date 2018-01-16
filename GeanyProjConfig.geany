@@ -30,9 +30,10 @@ long_line_column=72
 [files]
 current_page=2
 FILE_NAME_0=0;C;0;EUTF-8;1;1;0;%2Fhome%2Fhipath%2FOrangePi-2G-IOT-SMS-Service%2Fsrc%2Fsrc-test-call-and-sms.c;0;4
-FILE_NAME_1=74;CMake;0;EUTF-8;1;1;0;%2Fhome%2Fhipath%2FOrangePi-2G-IOT-SMS-Service%2FCMakeLists.txt;0;4
-FILE_NAME_2=129;C++;0;EUTF-8;1;1;0;%2Fhome%2Fhipath%2FOrangePi-2G-IOT-SMS-Service%2Fsrc%2Fmain.cpp;0;4
-FILE_NAME_3=0;C++;0;EUTF-8;1;1;0;%2Fhome%2Fhipath%2FEclipseWorkspace%2FTestTempatesCPP%2Fmain.cpp;0;4
+FILE_NAME_1=119;CMake;0;EUTF-8;1;1;0;%2Fhome%2Fhipath%2FOrangePi-2G-IOT-SMS-Service%2FCMakeLists.txt;0;4
+FILE_NAME_2=2217;C++;0;EUTF-8;1;1;0;%2Fhome%2Fhipath%2FOrangePi-2G-IOT-SMS-Service%2Fsrc%2Fmain.cpp;0;4
+FILE_NAME_3=438;None;0;EUTF-8;1;1;0;%2Fhome%2Fhipath%2FOrangePi-2G-IOT-SMS-Service%2Fsrc%2Fsamples%2Fgetopt.txt;0;4
+FILE_NAME_4=0;C;0;EUTF-8;1;1;0;%2Fusr%2Finclude%2Funistd.h;0;4
 
 [build-menu]
 NF_00_LB=_Make

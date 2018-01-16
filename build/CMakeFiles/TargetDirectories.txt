@@ -1,3 +1,0 @@
-/home/hipath/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles/edit_cache.dir
-/home/hipath/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles/rebuild_cache.dir
-/home/hipath/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles/call-and-sms.dir
