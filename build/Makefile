@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service
+CMAKE_SOURCE_DIR = /home/hipath/OrangePi-2G-IOT-SMS-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/build
+CMAKE_BINARY_DIR = /home/hipath/OrangePi-2G-IOT-SMS-Service/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hipath/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles /home/hipath/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hipath/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ call-and-sms/fast:
 	$(MAKE) -f CMakeFiles/call-and-sms.dir/build.make CMakeFiles/call-and-sms.dir/build
 .PHONY : call-and-sms/fast
 
-src/src-test-call-and-sms.o: src/src-test-call-and-sms.c.o
+src/main.o: src/main.cpp.o
 
-.PHONY : src/src-test-call-and-sms.o
+.PHONY : src/main.o
 
 # target to build an object file
-src/src-test-call-and-sms.c.o:
-	$(MAKE) -f CMakeFiles/call-and-sms.dir/build.make CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o
-.PHONY : src/src-test-call-and-sms.c.o
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/call-and-sms.dir/build.make CMakeFiles/call-and-sms.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-src/src-test-call-and-sms.i: src/src-test-call-and-sms.c.i
+src/main.i: src/main.cpp.i
 
-.PHONY : src/src-test-call-and-sms.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/src-test-call-and-sms.c.i:
-	$(MAKE) -f CMakeFiles/call-and-sms.dir/build.make CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.i
-.PHONY : src/src-test-call-and-sms.c.i
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/call-and-sms.dir/build.make CMakeFiles/call-and-sms.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/src-test-call-and-sms.s: src/src-test-call-and-sms.c.s
+src/main.s: src/main.cpp.s
 
-.PHONY : src/src-test-call-and-sms.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/src-test-call-and-sms.c.s:
-	$(MAKE) -f CMakeFiles/call-and-sms.dir/build.make CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.s
-.PHONY : src/src-test-call-and-sms.c.s
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/call-and-sms.dir/build.make CMakeFiles/call-and-sms.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... call-and-sms"
-	@echo "... src/src-test-call-and-sms.o"
-	@echo "... src/src-test-call-and-sms.i"
-	@echo "... src/src-test-call-and-sms.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

@@ -1,1 +1,1 @@
-/usr/bin/cc     CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o  -o call-and-sms 
+/usr/bin/c++      CMakeFiles/call-and-sms.dir/src/main.cpp.o  -o call-and-sms 

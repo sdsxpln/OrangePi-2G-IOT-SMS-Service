@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service
+CMAKE_SOURCE_DIR = /home/hipath/OrangePi-2G-IOT-SMS-Service
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/build
+CMAKE_BINARY_DIR = /home/hipath/OrangePi-2G-IOT-SMS-Service/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/call-and-sms.dir/depend.make
@@ -57,41 +57,41 @@ include CMakeFiles/call-and-sms.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/call-and-sms.dir/flags.make
 
-CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o: CMakeFiles/call-and-sms.dir/flags.make
-CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o: ../src/src-test-call-and-sms.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o   -c /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/src/src-test-call-and-sms.c
+CMakeFiles/call-and-sms.dir/src/main.cpp.o: CMakeFiles/call-and-sms.dir/flags.make
+CMakeFiles/call-and-sms.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hipath/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/call-and-sms.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/call-and-sms.dir/src/main.cpp.o -c /home/hipath/OrangePi-2G-IOT-SMS-Service/src/main.cpp
 
-CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/src/src-test-call-and-sms.c > CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.i
+CMakeFiles/call-and-sms.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/call-and-sms.dir/src/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hipath/OrangePi-2G-IOT-SMS-Service/src/main.cpp > CMakeFiles/call-and-sms.dir/src/main.cpp.i
 
-CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/src/src-test-call-and-sms.c -o CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.s
+CMakeFiles/call-and-sms.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/call-and-sms.dir/src/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hipath/OrangePi-2G-IOT-SMS-Service/src/main.cpp -o CMakeFiles/call-and-sms.dir/src/main.cpp.s
 
-CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o.requires:
+CMakeFiles/call-and-sms.dir/src/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o.requires
+.PHONY : CMakeFiles/call-and-sms.dir/src/main.cpp.o.requires
 
-CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o.provides: CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o.requires
-	$(MAKE) -f CMakeFiles/call-and-sms.dir/build.make CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o.provides.build
-.PHONY : CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o.provides
+CMakeFiles/call-and-sms.dir/src/main.cpp.o.provides: CMakeFiles/call-and-sms.dir/src/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/call-and-sms.dir/build.make CMakeFiles/call-and-sms.dir/src/main.cpp.o.provides.build
+.PHONY : CMakeFiles/call-and-sms.dir/src/main.cpp.o.provides
 
-CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o.provides.build: CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o
+CMakeFiles/call-and-sms.dir/src/main.cpp.o.provides.build: CMakeFiles/call-and-sms.dir/src/main.cpp.o
 
 
 # Object files for target call-and-sms
 call__and__sms_OBJECTS = \
-"CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o"
+"CMakeFiles/call-and-sms.dir/src/main.cpp.o"
 
 # External object files for target call-and-sms
 call__and__sms_EXTERNAL_OBJECTS =
 
-call-and-sms: CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o
+call-and-sms: CMakeFiles/call-and-sms.dir/src/main.cpp.o
 call-and-sms: CMakeFiles/call-and-sms.dir/build.make
 call-and-sms: CMakeFiles/call-and-sms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable call-and-sms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hipath/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable call-and-sms"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/call-and-sms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +99,7 @@ CMakeFiles/call-and-sms.dir/build: call-and-sms
 
 .PHONY : CMakeFiles/call-and-sms.dir/build
 
-CMakeFiles/call-and-sms.dir/requires: CMakeFiles/call-and-sms.dir/src/src-test-call-and-sms.c.o.requires
+CMakeFiles/call-and-sms.dir/requires: CMakeFiles/call-and-sms.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/call-and-sms.dir/requires
 
@@ -108,6 +108,6 @@ CMakeFiles/call-and-sms.dir/clean:
 .PHONY : CMakeFiles/call-and-sms.dir/clean
 
 CMakeFiles/call-and-sms.dir/depend:
-	cd /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/build /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/build /home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles/call-and-sms.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hipath/OrangePi-2G-IOT-SMS-Service/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hipath/OrangePi-2G-IOT-SMS-Service /home/hipath/OrangePi-2G-IOT-SMS-Service /home/hipath/OrangePi-2G-IOT-SMS-Service/build /home/hipath/OrangePi-2G-IOT-SMS-Service/build /home/hipath/OrangePi-2G-IOT-SMS-Service/build/CMakeFiles/call-and-sms.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/call-and-sms.dir/depend
 

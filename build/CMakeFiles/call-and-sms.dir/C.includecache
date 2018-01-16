@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/orangepi/PROJs/OrangePi-2G-IOT-SMS-Service/src/src-test-call-and-sms.c
+/home/hipath/OrangePi-2G-IOT-SMS-Service/src/src-test-call-and-sms.c
 stdio.h
 -
 stdlib.h
